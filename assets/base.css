@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body
+{
+  background-color : #1e2130;
+  color : #f3f5f4;
+}
+
+textarea {
+  resize: none;
+}
+
+h1
+{
+  /*font-family : 'Roboto Slab', serif;*/
+  font-family: 'Manrope', sans-serif;
+  font-size : 2.5vw;
+}
+
+h2
+{
+  font-family: 'Roboto Slab', serif;
+  font-size : 1.7vw;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size : 1.3vw;
+}
+
+p
+{
+  font-size : 1vw;
+}
+
+Hr
+{
+  border-color : #f3f5f4 !important;
+  opacity : 0.7;
+}
+
+#show-template
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+input[type=radio]
+{
+  display : inline;
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-right : 0.5vw;
+  vertical-align : middle;
+  visibility: hidden;
+}
+
+input[type='radio']:after
+{
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 0.78vw;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0.05vw solid #d1d3d1;
+}
+
+input[type='radio']:checked:after
+{
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 0.78vw;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0.31vw solid #FFAE00;
+}
+
+*.Select-control, Select--single, .Select-multi-value-wrapper, .Select-value, .Select-value-label {
+  background-color: #161a28 !important;
+  color: #f3f5f4 !important;
+  padding-left : 1.2vw;
+}
+
+.Select-menu-outer, .Select-menu-outer div, .Select--multi {
+  background-color: #161a28 !important;
+  color: #f3f5f4 !important;
+}
+
+.Select--single>.Select-control .Select-value, .Select-placeholder
+{
+    line-height: 2vw;
+}
+
+input[type="number"]
+{
+  background-color: #161a28 !important;
+  border: 0.05vw solid #f3f5f4;
+  color : #f3f5f4 !important;
+  font-size : 0.8vw;
+}

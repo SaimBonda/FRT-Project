@@ -1,0 +1,4 @@
+{"classes": ["Positive", "Negative"],
+  "cm": [[96, 4], [3,97]],
+  "acc": [96, 97]
+}
