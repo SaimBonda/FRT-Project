@@ -4,7 +4,7 @@ import numpy as np
 
 def parkinson_predict(image_path):
     np.set_printoptions(suppress=True)
-    model = tensorflow.keras.models.load_model('usecase/keras_model.h5', compile=False)
+    model = tensorflow.keras.models.load_model('usecase/model.h5', compile=False)
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
     image = Image.open(image_path)
     size = (224, 224)
