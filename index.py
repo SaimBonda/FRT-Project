@@ -35,7 +35,7 @@ def render_page_content(pathname):
 @app.callback([Output(f"{i}-link", "active") for i in pages], [Input("url", "pathname")])
 def toggle_active_links(pathname):
     if pathname == "/":
-        return True, False, False, False, False
+        return True, False, False
     return [pathname == f"/{i}" for i in pages]
 
 @app.server.route('/static/<path>')
